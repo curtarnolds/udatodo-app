@@ -68,18 +68,18 @@ custom:
   
   
   
-  #logs:
-    # Enable API Gateway logs
-   # restApi: true
+  # logs:
+  #   Enable API Gateway logs
+  #   restApi: true
 
-  #iam:
-   # role:
-    #  statements:
-     #   - Effect: Allow
-     #     Action:
-     #       - xray:PutTelemetryRecords
-     #       - xray:PutTraceSegments
-     #     Resource: "*"
+  # iam:
+  #   role:
+  #     statements:
+  #       - Effect: Allow
+  #         Action:
+  #           - xray:PutTelemetryRecords
+  #           - xray:PutTraceSegments
+  #         Resource: "*"
 
 
 functions:
